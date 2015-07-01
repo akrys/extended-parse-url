@@ -1,0 +1,15 @@
+{
+	"name": "akrys/extended-parse-url",
+	"description": "some additional values for parse_url()",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3",
+		"ext-mbstring": "*",
+		"lib-pcre": "*"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"files": ["akrys/ExtendedParseUrl/extended_parse_url.php"]
+	}
+}

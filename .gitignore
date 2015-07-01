@@ -1,0 +1,4 @@
+_phpunit
+_phpdoc
+vendor
+composer.lock

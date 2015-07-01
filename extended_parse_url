@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+try {
+	require_once __DIR__.'/akrys/ExtendedParseUrl/CLI.php';
+	akrys\ExtendedParseUrl\CLI::run($_SERVER['argc'], $_SERVER['argv']);
+} catch (\akrys\ExtendedParseUrl\Exception\CLIException $e) {
+	exit($e->getExitSataus());
+}
